@@ -22,6 +22,10 @@
 		5B0A91331D39AF4D00067D31 /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91271D39AF4D00067D31 /* InCodeMappingProvider.m */; };
 		5B0A91341D39AF4D00067D31 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A912A1D39AF4D00067D31 /* ObjectMapper.m */; };
 		5B0A91351D39AF4D00067D31 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A912C1D39AF4D00067D31 /* ObjectMappingInfo.m */; };
+		5B0A91381D39B00600067D31 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91371D39B00600067D31 /* Declarations.m */; };
+		5B0A913B1D39B01800067D31 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A913A1D39B01800067D31 /* WebServices.m */; };
+		5B0A913E1D39B02A00067D31 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A913D1D39B02A00067D31 /* Parser.m */; };
+		5B0A91411D39B04400067D31 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91401D39B04400067D31 /* OCMapperConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +60,14 @@
 		5B0A912B1D39AF4D00067D31 /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
 		5B0A912C1D39AF4D00067D31 /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
 		5B0A912D1D39AF4D00067D31 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
+		5B0A91361D39B00600067D31 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		5B0A91371D39B00600067D31 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		5B0A91391D39B01800067D31 /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		5B0A913A1D39B01800067D31 /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		5B0A913C1D39B02A00067D31 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		5B0A913D1D39B02A00067D31 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
+		5B0A913F1D39B04400067D31 /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
+		5B0A91401D39B04400067D31 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,14 @@
 			children = (
 				5B0A90FA1D39ABCF00067D31 /* AppDelegate.h */,
 				5B0A90FB1D39ABCF00067D31 /* AppDelegate.m */,
+				5B0A91361D39B00600067D31 /* Declarations.h */,
+				5B0A91371D39B00600067D31 /* Declarations.m */,
+				5B0A91391D39B01800067D31 /* WebServices.h */,
+				5B0A913A1D39B01800067D31 /* WebServices.m */,
+				5B0A913C1D39B02A00067D31 /* Parser.h */,
+				5B0A913D1D39B02A00067D31 /* Parser.m */,
+				5B0A913F1D39B04400067D31 /* OCMapperConfig.h */,
+				5B0A91401D39B04400067D31 /* OCMapperConfig.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -274,13 +294,17 @@
 			files = (
 				5B0A90FF1D39ABCF00067D31 /* Start.m in Sources */,
 				5B0A91341D39AF4D00067D31 /* ObjectMapper.m in Sources */,
+				5B0A913B1D39B01800067D31 /* WebServices.m in Sources */,
 				5B0A91331D39AF4D00067D31 /* InCodeMappingProvider.m in Sources */,
+				5B0A913E1D39B02A00067D31 /* Parser.m in Sources */,
 				5B0A90FC1D39ABCF00067D31 /* AppDelegate.m in Sources */,
 				5B0A91311D39AF4D00067D31 /* ObjectInstanceProvider.m in Sources */,
 				5B0A91051D39ABCF00067D31 /* Web_Services.xcdatamodeld in Sources */,
+				5B0A91411D39B04400067D31 /* OCMapperConfig.m in Sources */,
 				5B0A912F1D39AF4D00067D31 /* NSObject+ObjectMapper.m in Sources */,
 				5B0A90F91D39ABCF00067D31 /* main.m in Sources */,
 				5B0A91321D39AF4D00067D31 /* CommonLoggingProvider.m in Sources */,
+				5B0A91381D39B00600067D31 /* Declarations.m in Sources */,
 				5B0A91351D39AF4D00067D31 /* ObjectMappingInfo.m in Sources */,
 				5B0A912E1D39AF4D00067D31 /* NSDictionary+ObjectMapper.m in Sources */,
 				5B0A91301D39AF4D00067D31 /* ManagedObjectInstanceProvider.m in Sources */,
