@@ -14,6 +14,14 @@
 		5B0A91051D39ABCF00067D31 /* Web_Services.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91031D39ABCF00067D31 /* Web_Services.xcdatamodeld */; };
 		5B0A91071D39ABCF00067D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0A91061D39ABCF00067D31 /* Assets.xcassets */; };
 		5B0A910A1D39ABCF00067D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0A91081D39ABCF00067D31 /* LaunchScreen.storyboard */; };
+		5B0A912E1D39AF4D00067D31 /* NSDictionary+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91171D39AF4D00067D31 /* NSDictionary+ObjectMapper.m */; };
+		5B0A912F1D39AF4D00067D31 /* NSObject+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91191D39AF4D00067D31 /* NSObject+ObjectMapper.m */; };
+		5B0A91301D39AF4D00067D31 /* ManagedObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A911D1D39AF4D00067D31 /* ManagedObjectInstanceProvider.m */; };
+		5B0A91311D39AF4D00067D31 /* ObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A911F1D39AF4D00067D31 /* ObjectInstanceProvider.m */; };
+		5B0A91321D39AF4D00067D31 /* CommonLoggingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91221D39AF4D00067D31 /* CommonLoggingProvider.m */; };
+		5B0A91331D39AF4D00067D31 /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91271D39AF4D00067D31 /* InCodeMappingProvider.m */; };
+		5B0A91341D39AF4D00067D31 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A912A1D39AF4D00067D31 /* ObjectMapper.m */; };
+		5B0A91351D39AF4D00067D31 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A912C1D39AF4D00067D31 /* ObjectMappingInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,26 @@
 		5B0A91061D39ABCF00067D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B0A91091D39ABCF00067D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B0A910B1D39ABCF00067D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0A91161D39AF4D00067D31 /* NSDictionary+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ObjectMapper.h"; sourceTree = "<group>"; };
+		5B0A91171D39AF4D00067D31 /* NSDictionary+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ObjectMapper.m"; sourceTree = "<group>"; };
+		5B0A91181D39AF4D00067D31 /* NSObject+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMapper.h"; sourceTree = "<group>"; };
+		5B0A91191D39AF4D00067D31 /* NSObject+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMapper.m"; sourceTree = "<group>"; };
+		5B0A911B1D39AF4D00067D31 /* InstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceProvider.h; sourceTree = "<group>"; };
+		5B0A911C1D39AF4D00067D31 /* ManagedObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectInstanceProvider.h; sourceTree = "<group>"; };
+		5B0A911D1D39AF4D00067D31 /* ManagedObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectInstanceProvider.m; sourceTree = "<group>"; };
+		5B0A911E1D39AF4D00067D31 /* ObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInstanceProvider.h; sourceTree = "<group>"; };
+		5B0A911F1D39AF4D00067D31 /* ObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInstanceProvider.m; sourceTree = "<group>"; };
+		5B0A91211D39AF4D00067D31 /* CommonLoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLoggingProvider.h; sourceTree = "<group>"; };
+		5B0A91221D39AF4D00067D31 /* CommonLoggingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLoggingProvider.m; sourceTree = "<group>"; };
+		5B0A91231D39AF4D00067D31 /* LoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingProvider.h; sourceTree = "<group>"; };
+		5B0A91261D39AF4D00067D31 /* InCodeMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InCodeMappingProvider.h; sourceTree = "<group>"; };
+		5B0A91271D39AF4D00067D31 /* InCodeMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InCodeMappingProvider.m; sourceTree = "<group>"; };
+		5B0A91281D39AF4D00067D31 /* MappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
+		5B0A91291D39AF4D00067D31 /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		5B0A912A1D39AF4D00067D31 /* ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMapper.m; sourceTree = "<group>"; };
+		5B0A912B1D39AF4D00067D31 /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
+		5B0A912C1D39AF4D00067D31 /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
+		5B0A912D1D39AF4D00067D31 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +88,7 @@
 		5B0A90F61D39ABCE00067D31 /* Web Services */ = {
 			isa = PBXGroup;
 			children = (
+				5B0A91131D39AE6400067D31 /* Classes */,
 				5B0A91121D39AC5000067D31 /* Controllers */,
 				5B0A91111D39AC4900067D31 /* Main */,
 				5B0A91001D39ABCF00067D31 /* Main.storyboard */,
@@ -96,6 +125,81 @@
 				5B0A90FE1D39ABCF00067D31 /* Start.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5B0A91131D39AE6400067D31 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A91141D39AF4D00067D31 /* ocmapper */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5B0A91141D39AF4D00067D31 /* ocmapper */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A91151D39AF4D00067D31 /* Categories */,
+				5B0A911A1D39AF4D00067D31 /* Instance Provider */,
+				5B0A91201D39AF4D00067D31 /* Logging Provider */,
+				5B0A91241D39AF4D00067D31 /* Mapping Provider */,
+				5B0A91291D39AF4D00067D31 /* ObjectMapper.h */,
+				5B0A912A1D39AF4D00067D31 /* ObjectMapper.m */,
+				5B0A912B1D39AF4D00067D31 /* ObjectMappingInfo.h */,
+				5B0A912C1D39AF4D00067D31 /* ObjectMappingInfo.m */,
+				5B0A912D1D39AF4D00067D31 /* OCMapper.h */,
+			);
+			path = ocmapper;
+			sourceTree = "<group>";
+		};
+		5B0A91151D39AF4D00067D31 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A91161D39AF4D00067D31 /* NSDictionary+ObjectMapper.h */,
+				5B0A91171D39AF4D00067D31 /* NSDictionary+ObjectMapper.m */,
+				5B0A91181D39AF4D00067D31 /* NSObject+ObjectMapper.h */,
+				5B0A91191D39AF4D00067D31 /* NSObject+ObjectMapper.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5B0A911A1D39AF4D00067D31 /* Instance Provider */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A911B1D39AF4D00067D31 /* InstanceProvider.h */,
+				5B0A911C1D39AF4D00067D31 /* ManagedObjectInstanceProvider.h */,
+				5B0A911D1D39AF4D00067D31 /* ManagedObjectInstanceProvider.m */,
+				5B0A911E1D39AF4D00067D31 /* ObjectInstanceProvider.h */,
+				5B0A911F1D39AF4D00067D31 /* ObjectInstanceProvider.m */,
+			);
+			path = "Instance Provider";
+			sourceTree = "<group>";
+		};
+		5B0A91201D39AF4D00067D31 /* Logging Provider */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A91211D39AF4D00067D31 /* CommonLoggingProvider.h */,
+				5B0A91221D39AF4D00067D31 /* CommonLoggingProvider.m */,
+				5B0A91231D39AF4D00067D31 /* LoggingProvider.h */,
+			);
+			path = "Logging Provider";
+			sourceTree = "<group>";
+		};
+		5B0A91241D39AF4D00067D31 /* Mapping Provider */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A91251D39AF4D00067D31 /* In Code Mapping */,
+				5B0A91281D39AF4D00067D31 /* MappingProvider.h */,
+			);
+			path = "Mapping Provider";
+			sourceTree = "<group>";
+		};
+		5B0A91251D39AF4D00067D31 /* In Code Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				5B0A91261D39AF4D00067D31 /* InCodeMappingProvider.h */,
+				5B0A91271D39AF4D00067D31 /* InCodeMappingProvider.m */,
+			);
+			path = "In Code Mapping";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +273,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0A90FF1D39ABCF00067D31 /* Start.m in Sources */,
+				5B0A91341D39AF4D00067D31 /* ObjectMapper.m in Sources */,
+				5B0A91331D39AF4D00067D31 /* InCodeMappingProvider.m in Sources */,
 				5B0A90FC1D39ABCF00067D31 /* AppDelegate.m in Sources */,
+				5B0A91311D39AF4D00067D31 /* ObjectInstanceProvider.m in Sources */,
 				5B0A91051D39ABCF00067D31 /* Web_Services.xcdatamodeld in Sources */,
+				5B0A912F1D39AF4D00067D31 /* NSObject+ObjectMapper.m in Sources */,
 				5B0A90F91D39ABCF00067D31 /* main.m in Sources */,
+				5B0A91321D39AF4D00067D31 /* CommonLoggingProvider.m in Sources */,
+				5B0A91351D39AF4D00067D31 /* ObjectMappingInfo.m in Sources */,
+				5B0A912E1D39AF4D00067D31 /* NSDictionary+ObjectMapper.m in Sources */,
+				5B0A91301D39AF4D00067D31 /* ManagedObjectInstanceProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
