@@ -6,13 +6,13 @@
 //  Copyright © 2016 UAG. All rights reserved.
 //
 
-#import "Start.h"
+#import "Home.h"
 
-@interface Start ()
+@interface Home ()
 
 @end
 
-@implementation Start
+@implementation Home
 
 - (void)viewDidLoad {
     [super viewDidLoad];

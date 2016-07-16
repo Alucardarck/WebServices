@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		5B0A90F91D39ABCF00067D31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A90F81D39ABCF00067D31 /* main.m */; };
 		5B0A90FC1D39ABCF00067D31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A90FB1D39ABCF00067D31 /* AppDelegate.m */; };
-		5B0A90FF1D39ABCF00067D31 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A90FE1D39ABCF00067D31 /* Start.m */; };
+		5B0A90FF1D39ABCF00067D31 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A90FE1D39ABCF00067D31 /* Home.m */; };
 		5B0A91021D39ABCF00067D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0A91001D39ABCF00067D31 /* Main.storyboard */; };
 		5B0A91051D39ABCF00067D31 /* Web_Services.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A91031D39ABCF00067D31 /* Web_Services.xcdatamodeld */; };
 		5B0A91071D39ABCF00067D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0A91061D39ABCF00067D31 /* Assets.xcassets */; };
@@ -33,8 +33,8 @@
 		5B0A90F81D39ABCF00067D31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B0A90FA1D39ABCF00067D31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B0A90FB1D39ABCF00067D31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B0A90FD1D39ABCF00067D31 /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
-		5B0A90FE1D39ABCF00067D31 /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
+		5B0A90FD1D39ABCF00067D31 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		5B0A90FE1D39ABCF00067D31 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		5B0A91011D39ABCF00067D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B0A91041D39ABCF00067D31 /* Web_Services.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Web_Services.xcdatamodel; sourceTree = "<group>"; };
 		5B0A91061D39ABCF00067D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -141,8 +141,8 @@
 		5B0A91121D39AC5000067D31 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B0A90FD1D39ABCF00067D31 /* Start.h */,
-				5B0A90FE1D39ABCF00067D31 /* Start.m */,
+				5B0A90FD1D39ABCF00067D31 /* Home.h */,
+				5B0A90FE1D39ABCF00067D31 /* Home.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -292,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0A90FF1D39ABCF00067D31 /* Start.m in Sources */,
+				5B0A90FF1D39ABCF00067D31 /* Home.m in Sources */,
 				5B0A91341D39AF4D00067D31 /* ObjectMapper.m in Sources */,
 				5B0A913B1D39B01800067D31 /* WebServices.m in Sources */,
 				5B0A91331D39AF4D00067D31 /* InCodeMappingProvider.m in Sources */,
